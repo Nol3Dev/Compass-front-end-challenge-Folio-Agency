@@ -3,83 +3,147 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <link rel="stylesheet" href="./styles/reset.css">
-        <link rel="stylesheet" href="./css/work.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Work</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <title>Work</title>
     </head>
     <body>
-        <header class="header__c">
-            <div class="logo__c">
-                <img src="./img/logo.svg" alt="Folio logo" class="logo_folio">
+        <header class="container__header">
+            <div class="container__logo">
+                <img src="./img/logo.svg" alt="Folio Agency website logo">
             </div>
     
-                    <a href="about.html" class="item_header">About</a>
-                    <a href="work.html" class="item_header">Work</a>
-                    <a href="service.html" class="item_header">Services</a>
-                    <a href="cta.html" class="item_header">Jobs</a>
-
-            <a href="error 404">
-                <button class="contact_us-button">Contact Us</button>
+            <nav class="container__header__nav">
+                <ul class="container__nav__list">
+                    <a href="about.html" class="container__link__list">
+                        <li class="container__item">About</li>
+                    </a>
+                    <a href="work.html" class="container__link__list">
+                        <li  class="container__item">Work</li>
+                    </a>
+                    <a href="service.html" class="container__link__list">
+                        <li  class="container__item">Services</li>
+                    </a>
+                    <a href="cta.html" class="container__link__list">
+                        <li  class="container__item">Jobs</li>
+                    </a>
+                </ul>
+            </nav>
+            <a href="error 404" class="erro_link">
+                <button class="contact__us__button">Contact Us</button>
             </a>
     
-            <div class="burguer_menu">
-               <a href="menu.html"><img src="./img/burger icon.svg" alt="menu_link"></a> 
+            <div class="menubar">
+               <a href="menu.html"><img src="./img/burger icon.svg" alt="menu icon"></a> 
             </div>
         </header>
-        <section class="work_main">
-            <div class="text_work">
+        <section class="container__work">
+            <div class="pag__text">
                 <h4 class="number">04.</h4>
                 <h4>Famous Projects</h4>
             </div>
-            <div class="work_text-main">
-                <h1 class="title_work">Our Partnerships.</h1>
-                <p class="p_work">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+            <div class="container__work__text">
+                <h1 class="container__work__title">Our Partnerships.</h1>
+                <p class="container__work__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
             </div>
 
-            <div>
-                <div class="card_work">
-                    <img src="./img/work/img.svg" alt="" class="img_work1">
-                    <button class="img_button">Featured Product</button>
-                    <h2 class="title_card-p">Bento 3D Illustration</h2>
-                    <p class="p_card">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
-                    <a><img src="./img/work/arrow-down.svg" alt="Arrow" class="next"></a>
+            <div class="container__work__cards">
+                <div class="container__work__card">
+                    <img src="./img/work/img.svg" alt="" class="work__img1">
+                    <button class="work__img__button">Featured Product</button>
+                    <h2 class="work__card__title1">Bento 3D Illustration</h2>
+                    <p class="work__card__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
+                    <img src="./img/work/arrow-down.svg" alt="" class="work__next">
                 </div>
-                <div class="card_work">
-                    <img src="./img/work/img2.svg" alt="" class="img_work2">
+                <div class="container__work__card">
+                    <img src="./img/work/img2.svg" alt="" class="work__img2">
                    
-                    <h2 class="title_card">Bento 3D Illustration</h2>
-                    <p class="p_card">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
-                    <img src="./img/work/arrow-down.svg" alt="" class="next">
-
+                    <h2 class="work__card__title">Bento 3D Illustration</h2>
+                    <p class="work__card__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
+                    <img src="./img/work/arrow-down.svg" alt="" class="work__next">
                 </div>
-                <div class="card_work">
-                    <img src="./img/work/img3.svg" alt="" class="img_work3">
+                <div class="container__work__card">
+                    <img src="./img/work/img3.svg" alt="" class="work__img3">
                    
-                    <h2 class="title_card">Bento 3D Illustration</h2>
-                    <p class="p_card">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
-                    <img src="./img/work/arrow-down.svg" alt="" class="next">
+                    <h2 class="work__card__title">Bento 3D Illustration</h2>
+                    <p class="work__card__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
+                    <img src="./img/work/arrow-down.svg" alt="" class="work__next">
                 </div>
-                <div class="card_work">
-                    <img src="./img/work/img4.svg" alt="" class="img_work4">
+                <div class="container__work__card">
+                    <img src="./img/work/img4.svg" alt="" class="work__img4">
                     
-                    <h2 class="title_card">Bento 3D Illustration</h2>
-                    <p class="p_card">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
-                    <img src="./img/work/arrow-down.svg" alt="" class="next">
+                    <h2 class="work__card__title">Bento 3D Illustration</h2>
+                    <p class="work__card__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
+                    <img src="./img/work/arrow-down.svg" alt="" class="work__next">
                 </div>
-                <div class="card_work">
-                    <img src="./img/work/img5.svg" alt="" class="img_work5">
+                <div class="container__work__card">
+                    <img src="./img/work/img5.svg" alt="" class="work__img5">
                     
-                    <h2 class="title_card">Bento 3D Illustration</h2>
-                    <p class="p_card">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
-                    <img src="./img/work/arrow-down.svg" alt="" class="next">
+                    <h2 class="work__card__title">Bento 3D Illustration</h2>
+                    <p class="work__card__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands</p>
+                    <img src="./img/work/arrow-down.svg" alt="" class="work__next">
                 </div>
 
-                <button class="contact_us-button-work">Contact Us</button>
+                <button class="button__works">Contact Us</button>
             </div>
+
         </section>
+        <footer class="footer__index">
+            <div class="container__contact_us">
+                <div class="contact">
+                    <img src="./img/job/logo-footer.svg" alt="" class="footer__logo">
+                    <img src="./img/job/logo symbol.svg" alt="" class="footer__logo__desktop">
+                    <img src="./img/job/contact.svg" alt="" class="contact__image">
+                    <p class="contact__text">👋   Say  hello</p>
+                    <p class="container__text2">A design team building a curated marketplace for UI designers.</p>
+                    <h1 class="container__text3">Let’s talk about your next project</h1>
+                    <a href="#" ><button class="container__link">Contact Us</button></a>
+                    <p class="container__text4">Invest in your designs today!</p>
+                </div>
+            </div>
+            <div>
+                <img src="./img/logo.svg" alt="Folio Agency website logo" class="footer__logo__bot">
+                <p class="footer__text">Agency is a full-service agency, busy designing and building.</p>
+                <p class="footer__text__desktop">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                <select name="" id="" class="footer__select">
+                    <option value="" selected>Home</option>
+                    <option value="">About</option>
+                    <option value="">Work</option>
+                    <option value="">Service</option>
+                    <option value="">Jobs</option>
+                </select>
+    
+                <nav class="footer__nav">
+                    <ul class="footer__ul">
+                        <li class="footer__li">
+                            <a href="" class="footer__link">About</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="" class="footer__link">Work</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="" class="footer__link">Services</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="" class="footer__link">Jobs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <hr class="footer__divise">
+                <div class="footer__finish">
+                    <ul class="footer__icons">
+                        <a href="error 404"><li><img src="./img/footer/Path.svg" alt=""></li></a>
+                        <a href="error 404"><li><img src="./img/footer/logo-youtube.svg" alt=""></li></a>
+                        <a href="error 404"><li><img src="./img/footer/logo-instagram.svg" alt=""></li></a>
+                    </ul>
+                    <a href="" class="footer__finish__link">Follow Us</a>
+                    <p class="footer__cop">© 2020, UI8 LLC.</p>
+                </div>   
+            </div>
+        </footer>
     </body>
 </html>

@@ -4,65 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Folio Agency</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Folio Agency</title>
 </head>
-<body class="hero__bodypage">
-    <header class="header__c">
-        <div class="logo__c">
-            <img src="./img/logo.svg" alt="Folio logo" class="logo_folio">
+<body class="body__hero"> 
+    <header class="container__header">
+        <div class="container__logo">
+            <img src="./img/logo.svg" alt="Folio Agency website logo">
         </div>
-        <div class="burguer_menu">
-           <a href="menu.html"><img src="./img/burger icon.svg" alt="menu link"></a> 
+
+        <nav class="container__header__nav">
+            <ul class="container__nav__list">
+                <a href="about.html" class="container__link__list">
+                    <li class="container__item">About</li>
+                </a>
+                <a href="work.html" class="container__link__list">
+                    <li  class="container__item">Work</li>
+                </a>
+                <a href="service.html" class="container__link__list">
+                    <li  class="container__item">Services</li>
+                </a>
+                <a href="cta.html" class="container__link__list">
+                    <li  class="container__item">Jobs</li>
+                </a>
+            </ul>
+        </nav>
+        <a href="error 404" class="erro_link">
+            <button class="contact__us__button">Contact Us</button>
+        </a>
+
+        <div class="menubar">
+           <a href="menu.html"><img src="./img/burger icon.svg" alt="menu icon"></a> 
         </div>
     </header>
-    <section class="hero__c">
-        <div class="hero_txt-box">
-            <h1 class="title_hero">Stand Out from The Crowd.</h1>
-            <p class="p_hero">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
-            <a href="error 404" class="recent_button"><button>Recent Work</button></a>
+    <section class="container__hero">
+        <div class="hero">
+            <h1 class="hero__title">Stand Out from The Crowd.</h1>
+            <p class="hero__description">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+            <a href="#" class="hero__button"><button>Recent Work</button></a>
         </div>
-        <img src="./img/3d + wall.png" class="img_hero-tablet">
-        <img src="./img/3d + wall copy.svg" alt="" class="img_hero">
-        <div class="swipe_down">
-            <a href="about.html"><img src="./img/Style 1.svg" alt="" class="swipe_img"></a>
+
+        <img src="./img/3d + wall.png" alt="" class="hero__img-tablet">
+        <img src="./img/3d + wall copy.svg" alt="" class="hero__img">
+
+        <div class="container__swipe">
+            <a href="about.html"><img src="./img/Style 1.svg" alt="" class="swipe__img"></a>
             <p class="swipe__text">Swipe down to explore</p>
         </div>
     </section>
-    <!--FOOTER-->
-    <section class="contact_us">
-        <div>
-            <img src="./img/footer/SpeachBubble V2.svg" alt="" class="speach_img">
-            <p class="say_hello">👋   Say  hello</p>
-            <p class="p_contact">A design team building a curated marketplace for UI designers.</p>
-            <h1 class="h1_contact">Let’s talk about your next project</h1>
-            <a href="error 404"><button class="contact_us-button">Contact Us</button></a>
-        </div>
-    </section>
-    <footer>
-        <img src="./img/footer/Path Copy.svg" alt="grey line" class="bg_line-footer">
-        <img src="./img/logo.svg" alt="Folio logo" class="logo_footer">
-        <p class="footer_txt">Agency is a full-service agency, busy designing and building.</p>
-        <select name="" id="" class="nav_footer">
-            <a href="index.html"><option value="" selected>Home</option></a>
-            <a href="index.html"><option value="">About</option></a>
-            <a href="index.html"><option value="">Work</option></a>
-            <a href="index.html"><option value="">Service</option></a>
-            <a href="index.html"><option value="">Jobs</option></a>
-        </select>
-        <nav>
-            <ul class="icons__">
-                <a href="error 404"><li><img src="./img/footer/icon 1.svg" alt="facebook logo"></li></a>
-                <a href="error 404"><li><img src="./img/footer/logo-youtube.svg" alt="youtube logo"></li></a>
-                <a href="error 404"><li><img src="./img/footer/logo-instagram.svg" alt="instagram logo"></li></a>
-            </ul>
-        </nav>
-        <p class="copyright">© 2020, UI8 LLC.</p>
-    </footer>
 
+    <footer class="footer__index">
+        <div class="container__contact_us">
+            <div class="contact">
+                <img src="./img/job/logo-footer.svg" alt="" class="footer__logo">
+                <img src="./img/job/logo symbol.svg" alt="" class="footer__logo__desktop">
+                <img src="./img/job/contact.svg" alt="" class="contact__image">
+                <p class="contact__text">👋   Say  hello</p>
+                <p class="container__text2">A design team building a curated marketplace for UI designers.</p>
+                <h1 class="container__text3">Let’s talk about your next project</h1>
+                <a href="#" ><button class="container__link">Contact Us</button></a>
+                <p class="container__text4">Invest in your designs today!</p>
+            </div>
+        </div>
+        <div>
+            <img src="./img/logo.svg" alt="Folio Agency website logo" class="footer__logo__bot">
+            <p class="footer__text">Agency is a full-service agency, busy designing and building.</p>
+            <p class="footer__text__desktop">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+            <select name="" id="" class="footer__select">
+                <a href="index.html"><option value="" selected>Home</option></a>
+                <a href="about.html"><option value="">About</option></a>
+                <a href="work.html"><option value="">Work</option></a>
+                <a href="service.html"><option value="">Service</option></a>
+                <a href="job.html"><option value="">Jobs</option></a>
+            </select>
+
+            <nav class="footer__nav">
+                <ul class="footer__ul">
+                    <li class="footer__li">
+                        <a href="" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="" class="footer__link">Work</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="" class="footer__link">Services</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="" class="footer__link">Jobs</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="footer__divise">
+            <div class="footer__finish">
+                <ul class="footer__icons">
+                    <a href="error 404"><li><img src="./img/footer/Path.svg" alt=""></li></a>
+                    <a href="error 404"><li><img src="./img/footer/logo-youtube.svg" alt=""></li></a>
+                    <a href="error 404"><li><img src="./img/footer/logo-instagram.svg" alt=""></li></a>
+                </ul>
+                <a href="" class="footer__finish__link">Follow Us</a>
+                <p class="footer__cop">© 2020, UI8 LLC.</p>
+            </div>   
+        </div>
+    </footer>
 </body>
 </html>
