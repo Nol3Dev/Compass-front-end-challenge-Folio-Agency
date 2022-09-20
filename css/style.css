@@ -119,6 +119,17 @@
     margin: auto 24px;
 }
 
+.bg_line-footer {
+    position: absolute;
+    width: 457px;
+    height: 583px;
+    left: -114px;
+    top: 647px;
+    opacity: 0.5;
+    margin-left: -114px;
+    margin-top: 647px;
+}
+
 .logo_footer {
     margin: auto 119px 32px 120px;
 }
@@ -149,6 +160,21 @@
 
 .icons__ li {
     margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 100%;
+}
+
+.icons__ li:hover {
+    background-color: #5468E7;
+}
+
+.icons__ img {
+    width: 11.58px;
+    height: 8.53px;
+    margin-left: 14px;
+    margin-top: 16px;
 }
 
 .copyright {
