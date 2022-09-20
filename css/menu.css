@@ -1,0 +1,72 @@
+.menu_header {
+    font-family: 'Roboto'; 
+    background: url(../img/menu/Path\ Copy.svg) no-repeat;
+    background-position: 25.1vw 0vh;
+    background-size: 456.69px 582.58px;
+    background-color: #232340;   
+}
+
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    height: 128px;
+    align-items:center;
+}
+
+.header_menu-class {
+    display:flex;
+    align-items: center;
+    margin: 0 30px;
+    width: 320px;
+    justify-content: space-between;
+}
+
+.menu_main {
+    width: 122px;
+    height: 280px;
+    margin: 115px 222px 84px 32px;
+}
+
+.nav_menu {
+    margin-bottom: 40px;
+    width: 122px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item_li {
+    color: #595976;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;  
+}
+
+.item_li:hover {
+    color: #FFFFFF;
+}
+
+.menu_footer-icons {
+    display: flex;
+    width: 184px;
+    height: 40px;
+    margin-left: 46px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.menu_footer-icons a {
+    border: 1px solid #CCCCCC;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.menu_footer-icons a img {
+    width: 11px;
+    height: 11px;
+    margin-top: 16px;
+    margin-left: 14px;
+}
